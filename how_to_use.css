@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white; /*글자 색상*/
+}
+
+a:link,a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* navigation bar */
+.nav-title {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 55px;
+    margin-top: 10px;  
+    margin-bottom: 0;
+}
+
+/*header*/
+.hd-content {
+    text-align: center;
+    width: 20%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    border: 2px solid white;
+}
+
+/* section */
+.sec {
+    padding-top: 30px;
+}
+
+
+ol > li {
+    line-height: 30px;
+
+}
+
+.sec-detail {
+    line-height: 10px;
+}
+
+
+
+
+

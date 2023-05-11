@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abril Fatface', cursive;
+    background-color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+/* navigation bar */
+.nav-title {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 10px;  
+    margin-bottom: 0;
+}
+
+/* section */
+.menu-btn {
+    font-size: 45px;
+    line-height: 200px;
+}
+
+ul.menu-btn > li :hover {
+    opacity: 70%;
+}
+
